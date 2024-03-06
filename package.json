@@ -1,0 +1,30 @@
+{
+  "name": "medicine-delivery-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js",
+    "app": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markiankmet/medicine-delivery-server.git"
+  },
+  "author": "Markiian Kmet",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/markiankmet/medicine-delivery-server/issues"
+  },
+  "homepage": "https://github.com/markiankmet/medicine-delivery-server#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.3",
+    "mongoose": "^8.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
