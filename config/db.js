@@ -1,6 +1,6 @@
 import mongoose from "mongoose"
 
-const db = "mongodb+srv://devuser:gFQ0fIEKzxlCxhOw@medicine-delivery-db.yw9kc1a.mongodb.net/?retryWrites=true&w=majority&appName=medicine-delivery-db"
+const db = process.env.CONNECTION_STRING
 
 mongoose.set("strictQuery", true, "useNewUrlParser", true,)
 

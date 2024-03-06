@@ -1,3 +1,0 @@
-gFQ0fIEKzxlCxhOw
-
-mongodb+srv://<username>:<password>@medicine-delivery-db.yw9kc1a.mongodb.net/?retryWrites=true&w=majority&appName=medicine-delivery-db
